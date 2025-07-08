@@ -18,7 +18,7 @@ export default function Home() {
         </h1>
 
         <a
-          href="https://expo.dev/artifacts/eas/qQDgsoCszD1fPredcJwoU9.apk" // Direct APK download URL from your build
+          href="https://expo.dev/artifacts/eas/3SZJW9fnaq83LFdHgjHkW2.apk" // Direct APK download URL from your build
           className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg font-semibold mb-4"
           download
         >
