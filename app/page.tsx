@@ -39,7 +39,7 @@ export default function Home() {
               allow your browser or file manager.
             </li>
             <li>
-              Tap <strong>Install</strong> and open the Axon chat app!
+              Tap <strong>Install</strong> and open the Axon app!
             </li>
           </ol>
         </div>
