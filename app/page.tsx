@@ -3,7 +3,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-black">
       <Head>
         <title>Download Axon Chat App</title>
         <meta
@@ -12,14 +12,14 @@ export default function Home() {
         />
       </Head>
 
-      <main className="min-h-screen flex flex-col items-center justify-center p-6 bg-gray-100 text-gray-900">
-        <h1 className="text-4xl font-bold mb-6">
-          Download <span className="text-blue-600">Axon</span>
+      <main className="min-h-screen flex flex-col items-center justify-center p-6 text-gray-900">
+        <h1 className="text-4xl font-bold mb-6 text-white">
+          Download <span className="text-[#4ADE80]">Axon</span>
         </h1>
 
         <a
           href="https://expo.dev/artifacts/eas/3SZJW9fnaq83LFdHgjHkW2.apk" // Direct APK download URL from your build
-          className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl text-lg font-semibold mb-4"
+          className="bg-[#4ADE80] hover:bg-[#4ade80cf] text-white px-6 py-3 rounded-xl text-lg font-semibold mb-4"
           download
         >
           📥 Download for Android
@@ -44,13 +44,16 @@ export default function Home() {
           </ol>
         </div>
 
-        <p className="text-sm text-gray-600 mt-6">
+        <p className="text-sm text-gray-400 mt-6">
           Having issues? Contact support at{" "}
-          <a className="text-blue-600" href="mailto:support@axonchat.com">
-            support@axonchat.com
+          <a
+            className="text-[#4ADE80]"
+            href="mailto:axon.neighborhood@gmail.com"
+          >
+            axon.neighborhood@gmail.com
           </a>
         </p>
       </main>
-    </>
+    </div>
   );
 }
